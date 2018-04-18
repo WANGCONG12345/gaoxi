@@ -1,6 +1,5 @@
 package com.gaoxi.gaoxianalysis;
 
-import com.gaoxi.gaoxicommonservicefacade.TestCommon;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class GaoxiAnalysisApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(GaoxiAnalysisApplication.class, args);
-        TestCommon.doSomeThing();
+		SpringApplication.run(GaoxiAnalysisApplication.class, args);
 	}
 }
