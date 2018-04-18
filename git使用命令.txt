@@ -1,0 +1,4 @@
+1.git init 或者git clone创建git初始化仓库
+2.git add 添加文件到 stage
+  
+  git commit - m "" 提交stage中的文件到仓库
