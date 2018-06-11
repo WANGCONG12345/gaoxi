@@ -18,4 +18,3 @@
   因为工程中没有关于dataSource相关的配置信息，当spring创建dataSource bean因缺少相关的信息就会报错。
   解决方法在Application类上增加
   @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})即可
-  6.

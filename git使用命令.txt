@@ -1,4 +1,6 @@
 1.git init 或者git clone创建git初始化仓库
 2.git add 添加文件到 stage
-  
+    git add . 工作区修改和新建文件,但是不包括删除文件提交到stage
+    git add -u u即update的缩写,监控已经备tracked file的修改
+    git add -A 是上面两个功能的集合(git add -all)
   git commit - m "" 提交stage中的文件到仓库

@@ -1,4 +1,4 @@
-package com.gaoxi.gaoxiuser.gaoxiuser;
+package com.gaoxi.gaoxiuser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
