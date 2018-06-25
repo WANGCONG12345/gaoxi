@@ -1,4 +1,7 @@
-package com.gaoxi.gaoxiuser.entity.user;
+package com.gaoxi.gaoxicommonservicefacade.entity.user;
+
+import com.gaoxi.gaoxicommonservicefacade.entity.user.MenuEntity;
+import com.gaoxi.gaoxicommonservicefacade.entity.user.PermissionEntity;
 
 import java.io.Serializable;
 import java.util.List;

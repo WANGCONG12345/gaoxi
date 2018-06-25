@@ -1,4 +1,4 @@
-package com.gaoxi.gaoxiuser.enumerate;
+package com.gaoxi.gaoxicommonservicefacade.enumerate;
 
 /**
  * @author acong
@@ -8,6 +8,6 @@ package com.gaoxi.gaoxiuser.enumerate;
 public interface BaseEnum {
 
     int getCode();
-    String  getMsg();
 
+    String getMsg();
 }

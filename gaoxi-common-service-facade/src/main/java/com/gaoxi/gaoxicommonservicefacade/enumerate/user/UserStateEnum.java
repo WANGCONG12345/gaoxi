@@ -1,8 +1,9 @@
-package com.gaoxi.gaoxiuser.enumerate.user;
+package com.gaoxi.gaoxicommonservicefacade.enumerate.user;
 
-import com.gaoxi.gaoxiuser.enumerate.BaseEnum;
 
-public enum UserStateEnum implements BaseEnum{
+import com.gaoxi.gaoxicommonservicefacade.enumerate.BaseEnum;
+
+public enum UserStateEnum implements BaseEnum {
     ON(1,"启用"),
     OFF(0,"禁用");
     private int code;

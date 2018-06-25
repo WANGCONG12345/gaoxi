@@ -1,6 +1,7 @@
-package com.gaoxi.gaoxiuser.enumerate.user;
+package com.gaoxi.gaoxicommonservicefacade.enumerate.user;
 
-import com.gaoxi.gaoxiuser.enumerate.BaseEnum;
+
+import com.gaoxi.gaoxicommonservicefacade.enumerate.BaseEnum;
 
 public enum UserTypeEnum implements BaseEnum {
     Person(1,"个人用户"),

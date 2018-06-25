@@ -1,6 +1,7 @@
-package com.gaoxi.gaoxiuser.req.user;
+package com.gaoxi.gaoxicommonservicefacade.req.user;
 
-import com.gaoxi.gaoxiuser.req.AbsReq;
+
+import com.gaoxi.gaoxicommonservicefacade.req.AbsReq;
 
 public class LoginReq extends AbsReq {
 

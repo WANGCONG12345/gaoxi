@@ -1,4 +1,4 @@
-package com.gaoxi.gaoxiuser.entity.user;
+package com.gaoxi.gaoxicommonservicefacade.entity.user;
 
 import java.io.Serializable;
 

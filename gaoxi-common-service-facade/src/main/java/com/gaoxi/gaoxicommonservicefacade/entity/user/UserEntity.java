@@ -1,7 +1,8 @@
-package com.gaoxi.gaoxiuser.entity.user;
+package com.gaoxi.gaoxicommonservicefacade.entity.user;
 
-import com.gaoxi.gaoxiuser.enumerate.user.UserStateEnum;
-import com.gaoxi.gaoxiuser.enumerate.user.UserTypeEnum;
+
+import com.gaoxi.gaoxicommonservicefacade.enumerate.user.UserStateEnum;
+import com.gaoxi.gaoxicommonservicefacade.enumerate.user.UserTypeEnum;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -26,7 +27,7 @@ public class UserEntity implements Serializable {
     /**账号状态*/
     private UserStateEnum userStateEnum;
     /**用户的角色*/
-    private  RoleEntiry roleEntiry;
+    private RoleEntiry roleEntiry;
 
     public java.lang.String getUsername() {
         return username;
